@@ -5,6 +5,7 @@ import Features from '../component/Features'
 import Pricing from '../component/Pricing'
 import Network from '../component/Network'
 import Testimonial from '../component/testimonial/Testimonial'
+import Footer from '../component/Footer'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
     <Pricing />
     <Network />
     <Testimonial />
+    <Footer />
     </>
   )
 }
